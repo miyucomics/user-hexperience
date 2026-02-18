@@ -1,0 +1,31 @@
+modid = "hexperience"
+book = "hexcasting:thehexbook"
+default_lang = "en_us"
+default_branch = "main"
+
+resource_dirs = [
+    "resources",
+    "{_common.src}/main/resources",
+    { path="{^_common.src}/generated/resources", required=false },
+    { modid="hexcasting" },
+    { modid="minecraft" },
+    { modid="hexdoc" },
+]
+export_dir = "src/hexdoc_hexperience/_export/generated"
+
+[template]
+icon = "icon.png"
+include = [
+    "hexperience",
+    "hexcasting",
+    "hexdoc",
+]
+
+[template.args]
+mod_name = "User Hexperience"
+author = "miyucomics"
+show_landing_text = false
+
+[_common]
+src = "../src"
+package = "{src}/main/java/miyucomics/hexperience"

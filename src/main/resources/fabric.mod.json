@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hexperience",
+	"version": "${version}",
+	"name": "User Hexperience",
+	"description": "An Hexcasting addon about improving the user experience.",
+	"authors": [
+		"miyucomics"
+	],
+	"contact": {
+		"homepage": "https://github.com/miyucomics/hexperience",
+		"sources": "https://github.com/miyucomics/hexperience"
+	},
+	"license": "MIT",
+	"icon": "assets/hexperience/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"adapter": "kotlin",
+				"value": "miyucomics.hexperience.HexperienceMain"
+			}
+		],
+		"client": [
+			{
+				"adapter": "kotlin",
+				"value": "miyucomics.hexperience.HexperienceClient"
+			}
+		]
+	},
+	"mixins": [
+		"hexperience.mixins.json"
+	],
+	"depends": {
+		"minecraft": "1.20.1",
+		"fabricloader": ">=0.16.7",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.10.10+kotlin.1.9.10",
+		"hexcasting": ">=0.11.1-7-pre-646"
+	}
+}
