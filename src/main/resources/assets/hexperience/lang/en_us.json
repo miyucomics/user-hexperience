@@ -1,4 +1,7 @@
 {
 	"key.categories.hexperience": "User Hexperience",
-	"key.hexperience.open_hexbook": "Open Hex Notebook"
+	"key.hexperience.open_hexbook": "Open Hex Notebook",
+
+    "hexperience.page.hexperience.title": "Improved Hexperience",
+    "hexperience.page.hexperience.0": "For some reason, I feel more connected with my tools. I don't need the same level of caution with my $(l:items/staff)$(item)Staff$() as I used to and I can chase down targets during casting, handy to stop them from escaping my line of sight before I can finish my raycast. While casting, I can also recall my notes by pressing $(thing)$(k:hexperience.open_hexbook).$(br2)I can also write directly into my $(l:items/abacus)$(item)Abacus$() with $(l:patterns/readwrite#hexcasting:write)$(action)Scribe's Gambit$() in addition to reading from it."
 }
